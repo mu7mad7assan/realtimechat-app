@@ -7,11 +7,9 @@ interface pageProps {
  
 const Page: FC<pageProps> = () => {
   return (
-    <Button
-      isLoading={true}
-    >
-
-    </Button>
+    <div>
+      Button
+    </div>
   );
 
 }
